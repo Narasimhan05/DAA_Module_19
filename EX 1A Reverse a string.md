@@ -11,12 +11,10 @@ To write a program to create a recursive function to reverse a string.
 5.   
 
 ## Program:
+### Program to implement Reverse a String
+### Developed by: NARASIMHAN S
+### Register Number: 212223230133 
 ```
-/*
-Program to implement Reverse a String
-Developed by: NARASIMHAN S
-Register Number: 212223230133 
-*/
 def reverse_string(s):
     if len(s) == 0:
         return s
