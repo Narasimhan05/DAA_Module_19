@@ -14,7 +14,7 @@ To Write a python to implement Quick sort using the first element as pivot value
 ### Program to implement implement quick sort using the last element as pivot on the list of float values.
 ### Developed by: NARASIMHAN S
 ### Register Number: 212223230133
-```
+```python
 def quick_sort_random(a,st,en):
     if en-st>1:
         p=partition(a,st,en)
