@@ -4,11 +4,11 @@
 To write a program to create a recursive function to reverse a string.
 
 ## Algorithm
-1. 
-2. 
-3. 
-4.  
-5.   
+1. Define a recursive function reverse_string(s): This function will take a string s as input and reverse it.
+2. Handle the base case: If the string s is empty, return s itself (as an empty string is its own reverse).
+3. Perform recursive step: Otherwise, take the last character of s (s[-1]) and concatenate it with the result of calling reverse_string on the rest of the string (s[:-1]).
+4. Get user input: Prompt the user to enter a string and store it in the variable s.
+5. Print the reversed string: Call reverse_string(s) with the user's input and print the returned reversed string. 
 
 ## Program:
 ### Program to implement Reverse a String
